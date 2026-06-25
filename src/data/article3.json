@@ -1,0 +1,54 @@
+{
+  "id": "3",
+  "type": "article",
+  "category": {
+    "en": "Operations",
+    "ar": "العمليات"
+  },
+  "tags": [
+    {
+      "en": "Scheduling",
+      "ar": "الجدولة"
+    },
+    {
+      "en": "Efficiency",
+      "ar": "الكفاءة"
+    }
+  ],
+  "title": {
+    "en": "Excepteur sint occaecat cupidatat non proident",
+    "ar": "إكسبتيور سينت أوكايكات كيوبيداتات نون بروايدينت"
+  },
+  "summary": {
+    "en": "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "ar": "سونت إن كولبا كوي أوفيسيا ديسيرونت موليت أنيم إيد إيست لابوروم."
+  },
+  "content": {
+    "en": [
+      {
+        "type": "paragraph",
+        "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+      }
+    ],
+    "ar": [
+      {
+        "type": "paragraph",
+        "text": "نيمو إنيم إيبسام فوليوبتاتيم كوييا فوليوبتاس سيت أسبيرناتور أوت أوديت أوت فوجيت، سيد كوييا كونسيكيونتير ماجني دولوريس إيوس كوي راتيوني فوليوبتاتيم سيكوي نيسكيونت."
+      }
+    ]
+  },
+  "coverImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuDavppVbjn7iy3BnCLZuvpRwud6-Jg8yn6usS6IPsjoJatk7AuqCUr7N1vV_r4j8n5BIk6R3Lj22ZjKv6NMJCJH7ZVjTiuTKI9QNx5PIQZsEU88sRIGKpj7vT5VzlFySS2oXEPj0dsV4BgZvC0ipvMz2FoS0CFghBW-vDBG1Ui-kbsXJKd7PacLCy6RvA38KX8Ma8J5dyfbfkPKSODCQWFPRnL_SIWg8yFSyogqILk_LUG2dG1AA3Oi1kKTf2Fi1ebq0PBTdecU7YM",
+  "readTime": 4,
+  "date": "2025-03-01",
+  "author": {
+    "name": {
+      "en": "Ahmed Ali",
+      "ar": "أحمد علي"
+    },
+    "role": {
+      "en": "Product Lead",
+      "ar": "قائد المنتج"
+    },
+    "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAqgm1uGM0PefgsmFX7-eEZTW0lmemvftEd3a4qld0y8DhPvH4sj00GZv7vEVJ1vRS2HYLQP2KBYDoUYGjWmV8U9H_9JKd_IhDUv0BBhjusL9glUDELSnJgWUmgiTTSxmVA37Fb1AZcXy00zk06DU46Bp-NgVGNj6WvXLOdORt4gPoVxLOfwWycKuZ2uKI8pe46Tmrb9PO8HeRrVOZcm3MkMutwMR9XWT5JaSTTN7zophTzEdwc1LqTxU3EdvEIdgXPp4IHtv3_334"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "4",
+  "type": "article",
+  "category": {
+    "en": "Culture",
+    "ar": "الثقافة"
+  },
+  "tags": [
+    {
+      "en": "Team",
+      "ar": "الفريق"
+    },
+    {
+      "en": "Growth",
+      "ar": "النمو"
+    }
+  ],
+  "title": {
+    "en": "Neque porro quisquam est qui dolorem ipsum",
+    "ar": "نيكوي بورو كويسكوام إيست كوي دولاريم إيبسوم"
+  },
+  "summary": {
+    "en": "Quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+    "ar": "كوييا دولار سيت أميت، كونسيكتيتور، أديبيسكي فيليت، سيد كوييا نون نومكوام إيوس مودي تيمبورا إينكايديديونت."
+  },
+  "content": {
+    "en": [
+      {
+        "type": "paragraph",
+        "text": "Ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?"
+      }
+    ],
+    "ar": [
+      {
+        "type": "paragraph",
+        "text": "يوت لابوري إت دولار ماجنام أليكيام كوايرات فوليوبتاتيم. يوت إنيم أد مينيما فينيام، كيواس نوستروم إكسيرسيتاسيونيم أولام كوربوريس سوسكيبيت لابوريوسام، نيسي يوت أليكيود إكس إيا كومودي كونسيكيواتور؟"
+      }
+    ]
+  },
+  "coverImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuCD28hXOhkTrVe5Frem6k4_aav7EL1SUi0pH2yg8kYF1M4UufKkOSIwgciKCOrNXkfZFqzFvmrVIbUwsdgmEZBcfOg8E9riUbVauJg7iZB4pBNEtXkFnTAl1PLDIGpaGuzLQ8A7yN9YksyumFM9dDt384NhUkay2stEb3We__5fu8TH8WIX1jlTsBDFodTAx26oexirRB0dHBwc4A_LF66KfEbxg_2WwT9tYhswE06b9E206gPdQhyGJIMh10I_M7RfGWULwktntTM",
+  "readTime": 6,
+  "date": "2025-03-22",
+  "author": {
+    "name": {
+      "en": "Sarah Jenkins",
+      "ar": "سارة جينكينز"
+    },
+    "role": {
+      "en": "Systems Engineer",
+      "ar": "مهندس نظم"
+    },
+    "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuDoCdqXkWjoYsETKaKydSS_EBoE5KlULO_u31u5CV8xx17eaC4vTDwSOQ0cr6F5wjwikFwnXWAdjYt6s8Y-7IBDWF6-7vs2B7BAh1tMGc3EEdvSf9pQCtWkH351MTyho_oOMc-cE9RZhR-L1Cxt1GsnBzV8zbDEnumDJmM8Y-krPCmm7DC5lul0sbTThg-3PoKbAcjO1CBJsRtnMe-hBmOpmLl60DUigIJMrnLnmm3thxzUcuh2DGleOzxy8uAb0qNBk9rYy2pSt1A"
+  }
+}

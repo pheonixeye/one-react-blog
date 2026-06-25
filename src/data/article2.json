@@ -1,0 +1,78 @@
+{
+  "id": "2",
+  "type": "article",
+  "category": {
+    "en": "Engineering",
+    "ar": "الهندسة"
+  },
+  "tags": [
+    {
+      "en": "Infrastructure",
+      "ar": "البنية التحتية"
+    },
+    {
+      "en": "Rust",
+      "ar": "رست (Rust)"
+    }
+  ],
+  "title": {
+    "en": "At vero eos et accusamus et iusto odio",
+    "ar": "أت فيرو إيوس إت أكوساموس إت يوستو أوديو"
+  },
+  "summary": {
+    "en": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.",
+    "ar": "نام ليبيرو تيمبوري، كوم سوليوتا نوبيس إيست إيليجيندي أوبتيو كومكيو نيهيل إيمبيديت كيو ماينوس إيد كیود ماكسيمي بلاسيات."
+  },
+  "content": {
+    "en": [
+      {
+        "type": "heading",
+        "text": "The Architecture Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus."
+      },
+      {
+        "type": "heading",
+        "text": "Key Takeaways"
+      },
+      {
+        "type": "quote",
+        "text": "\"Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.\""
+      }
+    ],
+    "ar": [
+      {
+        "type": "heading",
+        "text": "نظرة عامة على الهيكل"
+      },
+      {
+        "type": "paragraph",
+        "text": "إت هاروم كويديم ريروم فاسيليس إيست إت إكسبيديتا ديستينكتيو. نام ليبيرو تيمبوري، كوم سوليوتا نوبيس إيست إيليجيندي أوبتيو كومكيو نيهيل إيمبيديت كيو ماينوس إيد كیود ماكسيمي بلاسيات فاسيري بوسيموس، أومنيس فوليوبتاس أسوميندا إيست، أومنيس دولار ريبيلليندوس."
+      },
+      {
+        "type": "heading",
+        "text": "النقاط الرئيسية"
+      },
+      {
+        "type": "quote",
+        "text": "\"تيمبوريبوس أوتيم كيويبوسدام إت أوت أوفيسيس ديبيتيس أوت ريروم نيسيسيتاتيبوس سايبي إيفينيت يوت إت فوليوبتاتيس ريبودياندي سينت إت موليستيا نون ريكوساندي.\""
+      }
+    ]
+  },
+  "coverImage": "https://lh3.googleusercontent.com/aida/AP1WRLtFKcwqbGB1YGP6UsRE4URmNxb6nwPaRUSNtF0pDZv9sjzAZwYDZFHKh1kDZzSEQqNWXXHNZg3HTqoFb9Y4-VbsTYGl0bUikwbEhkhNgv6r573jj6wuZ-15zpd_Olo52a3iSmK_gFvKjdRHHZH4WuuocljLmKAGQ__XJXU9f3mGxnaOCdyllGrfwzPufUi0IaPxI2j2LdgtIQ8BolqTokLc3ZAVLoAxT7h7IpHeyrkWfUrK2fGnJ3DAjV8",
+  "readTime": 8,
+  "date": "2025-02-14",
+  "author": {
+    "name": {
+      "en": "Sarah Jenkins",
+      "ar": "سارة جينكينز"
+    },
+    "role": {
+      "en": "Systems Engineer",
+      "ar": "مهندس نظم"
+    },
+    "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuDoCdqXkWjoYsETKaKydSS_EBoE5KlULO_u31u5CV8xx17eaC4vTDwSOQ0cr6F5wjwikFwnXWAdjYt6s8Y-7IBDWF6-7vs2B7BAh1tMGc3EEdvSf9pQCtWkH351MTyho_oOMc-cE9RZhR-L1Cxt1GsnBzV8zbDEnumDJmM8Y-krPCmm7DC5lul0sbTThg-3PoKbAcjO1CBJsRtnMe-hBmOpmLl60DUigIJMrnLnmm3thxzUcuh2DGleOzxy8uAb0qNBk9rYy2pSt1A"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "5",
+  "type": "article",
+  "category": {
+    "en": "Operations",
+    "ar": "العمليات"
+  },
+  "tags": [
+    {
+      "en": "Case Study",
+      "ar": "دراسة حالة"
+    },
+    {
+      "en": "Scaling",
+      "ar": "التوسع"
+    }
+  ],
+  "title": {
+    "en": "Quis autem vel eum iure reprehenderit qui in ea voluptate",
+    "ar": "كيواس أوتيم فيل إيوم يوري ريبريهينديريت كوي إن إيا فوليوبتاتي"
+  },
+  "summary": {
+    "en": "Velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.",
+    "ar": "فيليت إيسي كوام نيهيل موليستيا كونسيكيواتور، فيل إيليوم كوي دولاريم إيوم فيوجيات كيو فوليوبتاس نيولا باراياتيور."
+  },
+  "content": {
+    "en": [
+      {
+        "type": "paragraph",
+        "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+      }
+    ],
+    "ar": [
+      {
+        "type": "paragraph",
+        "text": "نيمو إنيم إيبسام فوليوبتاتيم كوييا فوليوبتاس سيت أسبيرناتور أوت أوديت أوت فوجيت، سيد كوييا كونسيكيونتير ماجني دولوريس إيوس كوي راتيوني فوليوبتاتيم سيكوي نيسكيونت."
+      }
+    ]
+  },
+  "coverImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuDa4pM6Ef9KLX3k4-u7nA9ZFblPPrm46UzpJ3gD3UOxQJmybdhQp7ibfNpY0LzCRrT18XPl09RUgCgqq8F5quFh4Z9E8qKLnAjc4Vhu4NkI88H4i7d099dE66nvJKOgKL2w918Jwgq9tSgi-HKisP8m2d-03bnRwVr064hMWY69eLjvrdljZCx2SoZnZZbfYWUt54Y7t9-gItzDmd_y0hmFYpYKXsP2jRxTABm6ADMb5FxyjZgEg-vqn3Yex_g83daEsxqETWGS1_I",
+  "readTime": 7,
+  "date": "2025-04-10",
+  "author": {
+    "name": {
+      "en": "Ahmed Ali",
+      "ar": "أحمد علي"
+    },
+    "role": {
+      "en": "Product Lead",
+      "ar": "قائد المنتج"
+    },
+    "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAqgm1uGM0PefgsmFX7-eEZTW0lmemvftEd3a4qld0y8DhPvH4sj00GZv7vEVJ1vRS2HYLQP2KBYDoUYGjWmV8U9H_9JKd_IhDUv0BBhjusL9glUDELSnJgWUmgiTTSxmVA37Fb1AZcXy00zk06DU46Bp-NgVGNj6WvXLOdORt4gPoVxLOfwWycKuZ2uKI8pe46Tmrb9PO8HeRrVOZcm3MkMutwMR9XWT5JaSTTN7zophTzEdwc1LqTxU3EdvEIdgXPp4IHtv3_334"
+  }
+}
