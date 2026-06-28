@@ -1,2 +1,4 @@
 # Root redirects to Arabic
 / /ar/ 301
+
+# Only 301/302 redirects here (no 200 rewrites — they break MIME types on custom domains).

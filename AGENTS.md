@@ -8,7 +8,7 @@ Next.js 15 + React 19 + TypeScript blog app (SSG/static export) with PocketBase 
 |---------|-------------|
 | `npm install` | Install dependencies |
 | `npm run dev` | Start dev server on port 3000, host 0.0.0.0 |
-| `npm run build` | Static export to `out/` via `next build` |
+| `npm run build` | Static export to `out/` via `next build` + postbuild script |
 | `npm run start` | Start production server |
 | `npm run typecheck` | Type-check (`tsc --noEmit`) |
 | `npm run clean` | Remove `.next/` and `out/` |
@@ -48,6 +48,12 @@ Static articles in `src/data/`:
 - `ar` (default, RTL) and `en` (LTR)
 - Language toggle in Nav switches locale cookie and navigates to same page in other locale
 - Both locales are pre-generated at build time for all routes
+
+## Post-build (`scripts/postbuild.mjs`)
+- Renames `out/_next/static` → `out/static` (Cloudflare Pages custom domains fail to serve JS from `/_next/static/` with correct MIME types)
+- Rewrites `/_next/static/` → `/static/` in all `.html`, `.xml`, `.txt` files
+- Updates webpack publicPath from `/_next/` to `/` in JS bundles
+- Ran automatically after `next build` via the `build` script in `package.json`
 
 ## Deployment
 - Deployed on **Cloudflare Pages** (connected repo; auto-builds on push to `main`)
