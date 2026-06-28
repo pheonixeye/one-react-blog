@@ -53,7 +53,8 @@ Static articles in `src/data/`:
 - Deployed on **Cloudflare Pages** (connected repo; auto-builds on push to `main`)
 - **Build command**: `npm run build`  |  **Output dir**: `out/`
 - **Env var** in Cloudflare dashboard: `APP_URL` = `https://blog.proklinik.app`
-- **Root redirect** via `public/_redirects`: `/` → `/ar/` (301). Paths without a locale prefix also redirect to `/ar/*` (301).
+- **Root redirect** via `public/_redirects`: `/` → `/ar/` (301). Only 301/302 redirects (no 200 rewrites — they break MIME types on custom domains).
+- **MIME types** enforced by `public/_headers` for `_next/static` JS and CSS files to prevent `X-Content-Type-Options: nosniff` errors on custom domains.
 - `.github/workflows/build.yml` runs CI build on push/PR (does not deploy; Cloudflare handles that).
 - GitHub Actions does not need `wrangler` or an API token — Cloudflare Pages is connected directly via the dashboard.
 
