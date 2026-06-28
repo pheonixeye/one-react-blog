@@ -23,20 +23,8 @@
       "ar": "التحول الرقمي"
     },
     {
-      "en": "Patient Management",
-      "ar": "إدارة المرضى"
-    },
-    {
-      "en": "Appointment Scheduling",
-      "ar": "حجز المواعيد"
-    },
-    {
       "en": "Clinic Operations",
       "ar": "تشغيل العيادات"
-    },
-    {
-      "en": "Healthcare Software",
-      "ar": "برامج الرعاية الصحية"
     }
   ],
   "title": {
@@ -486,18 +474,18 @@
       }
     ]
   },
-  "coverImage": "/images/blog/why-every-modern-clinic-needs-a-clinic-management-system-2026.webp",
+  "coverImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuBXvmawlOwHMElNLsIXfTCHa1ZVAkGh3BiYopu6idQSDW4KG3Xat6QwjY2m94qOUaEKcji34jOPbqY7_4bb2nLxupLjVeFc8tFEHjGK3qQN1I9BaANrnYbNkPaxIiVOeN6eEIL-zHuEH_EdUy4K8tgZxXcXbTRfhkNSs35Rsuf6B_pPVA0WsHwMYTzpAi6xpXpV4LLiMuplwVaAYS3MUA_6GKzYW-8Y8CiSdmkHRI6v85vUvzZhfjPDN-7geY1j44A5R2yFE-4Hx_I",
   "readTime": 18,
-  "date": "2026-01-06",
+  "date": "2026-01-10",
   "author": {
     "name": {
       "en": "ProKliniK Editorial Team",
       "ar": "فريق تحرير بروكلينيك"
     },
     "role": {
-      "en": "Product Lead",
-      "ar": "قائد المنتج"
+      "en": "Editorial Team",
+      "ar": "فريق التحرير"
     },
-    "avatar": "/images/authors/proklinik-team.webp"
+    "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAqgm1uGM0PefgsmFX7-eEZTW0lmemvftEd3a4qld0y8DhPvH4sj00GZv7vEVJ1vRS2HYLQP2KBYDoUYGjWmV8U9H_9JKd_IhDUv0BBhjusL9glUDELSnJgWUmgiTTSxmVA37Fb1AZcXy00zk06DU46Bp-NgVGNj6WvXLOdORt4gPoVxLOfwWycKuZ2uKI8pe46Tmrb9PO8HeRrVOZcm3MkMutwMR9XWT5JaSTTN7zophTzEdwc1LqTxU3EdvEIdgXPp4IHtv3_334"
   }
 }
