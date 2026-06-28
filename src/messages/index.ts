@@ -1,15 +1,3 @@
-export type Lang = "ar" | "en";
-let currentLang: Lang = "ar";
-
-export const setLang = (lang: Lang) => {
-  currentLang = lang;
-  document.documentElement.lang = lang;
-  document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
-  window.dispatchEvent(new Event("languagechange"));
-};
-
-export const getLang = () => currentLang;
-
 export const translations = {
   ar: {
     brand: "Proklinik-One",
@@ -147,6 +135,5 @@ export const translations = {
   },
 } as const;
 
-export const t = (key: keyof typeof translations.en) => {
-  return translations[currentLang][key] || key;
-};
+export type Locale = keyof typeof translations;
+export type TranslationKey = keyof typeof translations.ar;

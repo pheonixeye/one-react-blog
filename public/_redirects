@@ -1,0 +1,9 @@
+# Root redirects to Arabic
+/ /ar/ 301
+
+# Serve existing locale paths directly
+/en/* /en/:splat 200
+/ar/* /ar/:splat 200
+
+# Any path without a locale prefix: redirect to Arabic version
+/* /ar/:splat 301
