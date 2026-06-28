@@ -50,13 +50,44 @@ export function ArticleDetail({ article, locale, relatedArticles }: ArticleDetai
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   };
   
-  const schemaMarkup = {
+  const siteUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://blog.proklinik.app';
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: locale === 'ar' ? 'المدونة' : 'Blog',
+        item: `${siteUrl}/${locale}/`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: title,
+        item: `${siteUrl}/${locale}/article/${article.id}/`,
+      },
+    ],
+  };
+
+  const blogPostingSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: title,
     image: [article.coverImage],
     datePublished: article.date,
+    dateModified: article.date,
     author: [{ '@type': 'Person', name: authorName }],
+    description: summary,
+    publisher: {
+      '@type': 'Organization',
+      name: 'Proklinik-One',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${siteUrl}/${locale}/article/${article.id}/`,
+    },
   };
   
   const hasTOC = contentBlocks.some(
@@ -67,14 +98,18 @@ export function ArticleDetail({ article, locale, relatedArticles }: ArticleDetai
     <article className="max-w-4xl mx-auto mt-8 pb-24 relative">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
       />
       
       <div className="w-full h-[300px] md:h-[400px] relative overflow-hidden bg-surface-dim rounded-2xl border border-outline-variant/20 shadow-lg">
         {article.coverImage && (
           <img
             src={article.coverImage}
-            alt=""
+            alt={title}
             className="w-full h-full object-cover opacity-80 mix-blend-screen scale-105 transform hover:scale-100 transition-transform duration-1000"
           />
         )}
@@ -208,7 +243,7 @@ export function ArticleDetail({ article, locale, relatedArticles }: ArticleDetai
               >
                 <div className="h-40 w-full bg-surface-container-highest relative overflow-hidden rounded-t-xl">
                   {rel.coverImage ? (
-                    <img src={rel.coverImage} alt="" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-300 group-hover:scale-105 transform" />
+                    <img src={rel.coverImage} alt={getLocalized(locale, rel.title)} className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-300 group-hover:scale-105 transform" />
                   ) : (
                     <span className="text-4xl text-outline-variant opacity-50 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">developer_board</span>
                   )}

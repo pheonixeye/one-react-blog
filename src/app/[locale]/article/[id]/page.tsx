@@ -30,6 +30,7 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
   const title = locale === 'ar' ? article.title.ar : article.title.en;
   const summary = locale === 'ar' ? article.summary.ar : article.summary.en;
   const authorName = locale === 'ar' ? article.author.name.ar : article.author.name.en;
+  const ogLocale = locale === 'ar' ? 'ar_SA' : 'en_US';
 
   return {
     title: `${title} | Proklinik-One`,
@@ -38,6 +39,8 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
       title,
       description: summary,
       url: `/${locale}/article/${id}/`,
+      siteName: 'Proklinik-One Blog',
+      locale: ogLocale,
       images: [
         {
           url: article.coverImage,

@@ -19,9 +19,18 @@ export const metadata: Metadata = {
     siteName: 'Proklinik-One Blog',
     type: 'website',
     locale: 'ar_SA',
+    images: [
+      {
+        url: '/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'Proklinik-One Blog',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
+    images: ['/og-default.png'],
   },
 };
 

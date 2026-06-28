@@ -20,7 +20,7 @@ export function ArticleCard({ article, locale }: ArticleCardProps) {
           {article.coverImage ? (
             <img 
               src={article.coverImage} 
-              alt="" 
+              alt={getLocalized(locale, article.title)}
               className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-300 group-hover:scale-105 transform" 
             />
           ) : (
