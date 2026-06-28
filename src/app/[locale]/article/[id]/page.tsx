@@ -29,17 +29,32 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
 
   const title = locale === 'ar' ? article.title.ar : article.title.en;
   const summary = locale === 'ar' ? article.summary.ar : article.summary.en;
+  const authorName = locale === 'ar' ? article.author.name.ar : article.author.name.en;
 
   return {
-    title: `${title} | Proklinik-One Blog`,
+    title: `${title} | Proklinik-One`,
     description: summary,
     openGraph: {
       title,
       description: summary,
-      images: [article.coverImage],
+      url: `/${locale}/article/${id}/`,
+      images: [
+        {
+          url: article.coverImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
       type: 'article',
       publishedTime: article.date,
-      authors: [locale === 'ar' ? article.author.name.ar : article.author.name.en],
+      authors: [authorName],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description: summary,
+      images: [article.coverImage],
     },
   };
 }

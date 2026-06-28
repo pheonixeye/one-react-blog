@@ -30,9 +30,23 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     };
   }
 
+  const title = `${locale === 'ar' ? label.ar : label.en} | Proklinik-One`;
+  const description = locale === 'ar' ? desc.ar : desc.en;
+
   return {
-    title: `${locale === 'ar' ? label.ar : label.en} | Proklinik-One Blog`,
-    description: locale === 'ar' ? desc.ar : desc.en,
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `/${locale}/${category}/`,
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
   };
 }
 

@@ -13,12 +13,25 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: HomePageProps): Promise<Metadata> {
   const { locale } = await params;
+  const title = locale === 'ar' ? 'المدونة | Proklinik-One' : 'Blog | Proklinik-One';
+  const description = locale === 'ar'
+    ? 'اكتشف أحدث المقالات والرؤى حول إدارة العيادات والتكنولوجيا.'
+    : 'Discover the latest articles and insights on clinic management and tech.';
 
   return {
-    title: 'Proklinik-One Blog',
-    description: locale === 'ar'
-      ? 'اكتشف أحدث المقالات والرؤى حول إدارة العيادات والتكنولوجيا.'
-      : 'Discover the latest articles and insights on clinic management and tech.',
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `/${locale}/`,
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
   };
 }
 
