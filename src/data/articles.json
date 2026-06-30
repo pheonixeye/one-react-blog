@@ -55,40 +55,52 @@
     "id": "2",
     "type": "article",
     "category": {
-      "en": "Engineering",
-      "ar": "الهندسة"
+      "en": "Product",
+      "ar": "المنتج"
     },
     "tags": [
       {
-        "en": "Infrastructure",
-        "ar": "البنية التحتية"
+        "en": "Paperless Clinic",
+        "ar": "عيادة بدون ورق"
       },
       {
-        "en": "Rust",
-        "ar": "رست (Rust)"
+        "en": "Electronic Medical Records",
+        "ar": "السجلات الطبية الإلكترونية"
+      },
+      {
+        "en": "Clinic Efficiency",
+        "ar": "كفاءة العيادات"
+      },
+      {
+        "en": "Digital Transformation",
+        "ar": "التحول الرقمي"
+      },
+      {
+        "en": "Healthcare SaaS",
+        "ar": "برمجيات الرعاية الصحية"
       }
     ],
     "title": {
-      "en": "At vero eos et accusamus et iusto odio",
-      "ar": "أت فيرو إيوس إت أكوساموس إت يوستو أوديو"
+      "en": "15 Signs Your Clinic Has Outgrown Paper Records",
+      "ar": "15 علامة تدل على أن عيادتك تجاوزت مرحلة السجلات الورقية"
     },
     "summary": {
-      "en": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.",
-      "ar": "نام ليبيرو تيمبوري، كوم سوليوتا نوبيس إيست إيليجيندي أوبتيو كومكيو نيهيل إيمبيديت كيو ماينوس إيد كیود ماكسيمي بلاسيات."
+      "en": "Is your medical practice still buried under stacks of paper charts? Relying on physical medical files slows down your workflow, increases administrative errors, and compromises data security. This extensive guide highlights the 15 definitive signs that your clinic has outgrown traditional paper records and why transitioning to a cloud-based Electronic Medical Records (EMR) system is essential for your growth in 2026.",
+      "ar": "هل ما زالت عيادتك الطبية مدفونة تحت أكوام من الملفات الورقية؟ الاعتماد على السجلات المادية يبطئ سير العمل، يزيد من الأخطاء الإدارية، ويهدد أمن البيانات. يسلط هذا الدليل الشامل الضوء على 15 علامة حاسمة تدل على أن عيادتك قد تجاوزت مرحلة السجلات الورقية التقليدية، ولماذا يعد الانتقال إلى نظام السجلات الطبية الإلكترونية (EMR) السحابي أمراً ضرورياً لنموك في عام 2026."
     },
-    "coverImage": "https://lh3.googleusercontent.com/aida/AP1WRLtFKcwqbGB1YGP6UsRE4URmNxb6nwPaRUSNtF0pDZv9sjzAZwYDZFHKh1kDZzSEQqNWXXHNZg3HTqoFb9Y4-VbsTYGl0bUikwbEhkhNgv6r573jj6wuZ-15zpd_Olo52a3iSmK_gFvKjdRHHZH4WuuocljLmKAGQ__XJXU9f3mGxnaOCdyllGrfwzPufUi0IaPxI2j2LdgtIQ8BolqTokLc3ZAVLoAxT7h7IpHeyrkWfUrK2fGnJ3DAjV8",
-    "readTime": 8,
-    "date": "2025-02-14",
+    "coverImage": "https://res.cloudinary.com/dw5zbj6pk/image/upload/v1782849768/pk-article2_wbuf80.webp",
+    "readTime": 22,
+    "date": "2026-06-30",
     "author": {
       "name": {
-        "en": "Sarah Jenkins",
-        "ar": "سارة جينكينز"
+        "en": "ProKliniK Editorial Team",
+        "ar": "فريق تحرير بروكلينيك"
       },
       "role": {
-        "en": "Systems Engineer",
-        "ar": "مهندس نظم"
+        "en": "Editorial Team",
+        "ar": "فريق التحرير"
       },
-      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuDoCdqXkWjoYsETKaKydSS_EBoE5KlULO_u31u5CV8xx17eaC4vTDwSOQ0cr6F5wjwikFwnXWAdjYt6s8Y-7IBDWF6-7vs2B7BAh1tMGc3EEdvSf9pQCtWkH351MTyho_oOMc-cE9RZhR-L1Cxt1GsnBzV8zbDEnumDJmM8Y-krPCmm7DC5lul0sbTThg-3PoKbAcjO1CBJsRtnMe-hBmOpmLl60DUigIJMrnLnmm3thxzUcuh2DGleOzxy8uAb0qNBk9rYy2pSt1A"
+      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAqgm1uGM0PefgsmFX7-eEZTW0lmemvftEd3a4qld0y8DhPvH4sj00GZv7vEVJ1vRS2HYLQP2KBYDoUYGjWmV8U9H_9JKd_IhDUv0BBhjusL9glUDELSnJgWUmgiTTSxmVA37Fb1AZcXy00zk06DU46Bp-NgVGNj6WvXLOdORt4gPoVxLOfwWycKuZ2uKI8pe46Tmrb9PO8HeRrVOZcm3MkMutwMR9XWT5JaSTTN7zophTzEdwc1LqTxU3EdvEIdgXPp4IHtv3_334"
     }
   },
   {

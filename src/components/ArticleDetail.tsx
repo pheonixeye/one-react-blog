@@ -110,7 +110,7 @@ export function ArticleDetail({ article, locale, relatedArticles }: ArticleDetai
           <img
             src={article.coverImage}
             alt={title}
-            className="w-full h-full object-cover opacity-80 mix-blend-screen scale-105 transform hover:scale-100 transition-transform duration-1000"
+            className="w-full h-full object-cover scale-105 transform hover:scale-100 transition-transform duration-1000"
           />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
