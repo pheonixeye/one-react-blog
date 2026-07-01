@@ -112,33 +112,45 @@
     },
     "tags": [
       {
-        "en": "Scheduling",
-        "ar": "الجدولة"
+        "en": "Clinic Management System",
+        "ar": "نظام إدارة العيادات"
       },
       {
-        "en": "Efficiency",
-        "ar": "الكفاءة"
+        "en": "Healthcare Technology",
+        "ar": "تقنيات الرعاية الصحية"
+      },
+      {
+        "en": "Medical Practice Management",
+        "ar": "إدارة العيادات الطبية"
+      },
+      {
+        "en": "Digital Transformation",
+        "ar": "التحول الرقمي"
+      },
+      {
+        "en": "Clinic Operations",
+        "ar": "تشغيل العيادات"
       }
     ],
     "title": {
-      "en": "Excepteur sint occaecat cupidatat non proident",
-      "ar": "إكسبتيور سينت أوكايكات كيوبيداتات نون بروايدينت"
+      "en": "The Hidden Costs of Manual Appointment Scheduling: A Clinical Perspective for Modern Healthcare Providers",
+      "ar": "التكاليف الخفية لجدولة المواعيد يدوياً: منظور طبي للعاملين في الرعاية الصحية الحديثة"
     },
     "summary": {
-      "en": "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "ar": "سونت إن كولبا كوي أوفيسيا ديسيرونت موليت أنيم إيد إيست لابوروم."
+      "en": "In the high-stakes environment of modern healthcare, time is a critical resource. Manual scheduling leads to lost revenue from no-shows, double-bookings, and administrative inefficiencies. Proklinik-one demonstrates how automated systems transform chaotic coordination into a streamlined engine for patient care and revenue growth.",
+      "ar": "في بيئة الرعاية الصحية ذات المخاطر العالية، الوقت مورد حاسم. تؤدي الجدولة اليدوية إلى خسارة الإيرادات من عدم الحضور والمواعيد المزدوجة وغير الكفاءة الإدارية. يوضح Proklinik-one كيف تحول الأنظمة الآلية التنسيق الفوضوي إلى محرك مضغوط لرعاية المرضى ونمو الإيرادات."
     },
-    "coverImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuDavppVbjn7iy3BnCLZuvpRwud6-Jg8yn6usS6IPsjoJatk7AuqCUr7N1vV_r4j8n5BIk6R3Lj22ZjKv6NMJCJH7ZVjTiuTKI9QNx5PIQZsEU88sRIGKpj7vT5VzlFySS2oXEPj0dsV4BgZvC0ipvMz2FoS0CFghBW-vDBG1Ui-kbsXJKd7PacLCy6RvA38KX8Ma8J5dyfbfkPKSODCQWFPRnL_SIWg8yFSyogqILk_LUG2dG1AA3Oi1kKTf2Fi1ebq0PBTdecU7YM",
-    "readTime": 4,
-    "date": "2025-03-01",
+    "coverImage": "https://res.cloudinary.com/dw5zbj6pk/image/upload/v1782936103/pk-article3_ucudhc.webp",
+    "readTime": 20,
+    "date": "2026-01-15",
     "author": {
       "name": {
-        "en": "Ahmed Ali",
-        "ar": "أحمد علي"
+        "en": "ProKliniK Editorial Team",
+        "ar": "فريق تحرير بروكلينيك"
       },
       "role": {
-        "en": "Product Lead",
-        "ar": "قائد المنتج"
+        "en": "Editorial Team",
+        "ar": "فريق التحرير"
       },
       "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAqgm1uGM0PefgsmFX7-eEZTW0lmemvftEd3a4qld0y8DhPvH4sj00GZv7vEVJ1vRS2HYLQP2KBYDoUYGjWmV8U9H_9JKd_IhDUv0BBhjusL9glUDELSnJgWUmgiTTSxmVA37Fb1AZcXy00zk06DU46Bp-NgVGNj6WvXLOdORt4gPoVxLOfwWycKuZ2uKI8pe46Tmrb9PO8HeRrVOZcm3MkMutwMR9XWT5JaSTTN7zophTzEdwc1LqTxU3EdvEIdgXPp4IHtv3_334"
     }
