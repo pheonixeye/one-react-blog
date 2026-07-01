@@ -159,28 +159,40 @@
     "id": "4",
     "type": "article",
     "category": {
-      "en": "Culture",
-      "ar": "الثقافة"
+      "en": "Operations",
+      "ar": "العمليات"
     },
     "tags": [
       {
-        "en": "Team",
-        "ar": "الفريق"
+        "en": "Patient Experience",
+        "ar": "تجربة المريض"
       },
       {
-        "en": "Growth",
-        "ar": "النمو"
+        "en": "Digital Health",
+        "ar": "الصحة الرقمية"
+      },
+      {
+        "en": "Clinic Management System",
+        "ar": "نظام إدارة العيادات"
+      },
+      {
+        "en": "Healthcare Technology",
+        "ar": "تقنيات الرعاية الصحية"
+      },
+      {
+        "en": "Patient Engagement",
+        "ar": "مشاركة المرضى"
       }
     ],
     "title": {
-      "en": "Neque porro quisquam est qui dolorem ipsum",
-      "ar": "نيكوي بورو كويسكوام إيست كوي دولاريم إيبسوم"
+      "en": "How Digital Clinics Deliver Better Patient Experiences",
+      "ar": "كيف تقدم العيادات الرقمية تجارب أفضل للمرضى"
     },
     "summary": {
-      "en": "Quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.",
-      "ar": "كوييا دولار سيت أميت، كونسيكتيتور، أديبيسكي فيليت، سيد كوييا نون نومكوام إيوس مودي تيمبورا إينكايديديونت."
+      "en": "In the modern healthcare landscape, patient experience (PX) is a critical differentiator. Digital clinics leverage technology to reduce wait times, streamline communication, and provide seamless access to care. This article explores how Proklinik-one empowers clinics to transform digital infrastructure into superior patient journeys.",
+      "ar": "في مشهد الرعاية الصحية الحديث، تُعد تجربة المريض (PX) عامل تمييز حاسم. تستفيد العيادات الرقمية من التكنولوجيا لتقليل أوقات الانتظار، وتبسيط التواصل، وتوفير وصول سلس للرعاية. يستكشف هذا المقال كيف تمكن Proklinik-one العيادات من تحويل البنية التحتية الرقمية إلى مسارات رعاية متميزة للمرضى."
     },
-    "coverImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuCD28hXOhkTrVe5Frem6k4_aav7EL1SUi0pH2yg8kYF1M4UufKkOSIwgciKCOrNXkfZFqzFvmrVIbUwsdgmEZBcfOg8E9riUbVauJg7iZB4pBNEtXkFnTAl1PLDIGpaGuzLQ8A7yN9YksyumFM9dDt384NhUkay2stEb3We__5fu8TH8WIX1jlTsBDFodTAx26oexirRB0dHBwc4A_LF66KfEbxg_2WwT9tYhswE06b9E206gPdQhyGJIMh10I_M7RfGWULwktntTM",
+    "coverImage": "https://res.cloudinary.com/dw5zbj6pk/image/upload/v1782940038/pk-article4_nk1h4i.webp",
     "readTime": 6,
     "date": "2025-03-22",
     "author": {
